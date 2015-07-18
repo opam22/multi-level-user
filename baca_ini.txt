@@ -1,5 +1,8 @@
 ---PENJELASAN APLIKASI
 
+a. Buat database dengan nama multiuser
+b. Import sql yang ada di folder sql
+
 *Table
 Table user memiliki kolom
 username
@@ -43,4 +46,3 @@ Penjelasan lebih jelasnya ada langsung di codingannya, semua proses disini ada c
 	-Never stop learning.
 
 
-	
