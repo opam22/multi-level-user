@@ -2,7 +2,7 @@
 
 //Koneksi ke database
 
-include "core/config.php";
+include 'core/config.php';
 
 ?>
 <!DOCTYPE html>
@@ -14,8 +14,9 @@ include "core/config.php";
 <body>
 
 
+	<!-- Form untuk login yang diarahkan ke file action.login.php -->
 
-	<form action="action.login.php" method="POST">
+	<form action="doLogin.php" method="POST">
 		
 		<table>
 				
@@ -43,6 +44,26 @@ include "core/config.php";
 		
 
 	</form>
+
+
+
+
+
+
+	<?php
+	//kalau ada message
+	if (isset($_GET['message'])) {
+		
+		if ($_GET['message'] == 'gagal') { ?>
+				
+				<h4 style="color:red;">Username / Password salah</h4>
+
+		<?php
+		}
+
+	}
+
+	?>
 	
 </body>
 </html>

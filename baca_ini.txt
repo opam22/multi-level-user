@@ -1,0 +1,46 @@
+---PENJELASAN APLIKASI
+
+*Table
+Table user memiliki kolom
+username
+password
+level
+
+kolom level disini digunakan untuk menamndakan user yang login memiliki level apa, 1 untuk level admin, 2 untuk user biasa.
+
+user yang sudah terdaftar
+     
+     ---User---
+*username = kangmus
+*password = kangmus
+
+
+      ---Admin---
+*username = kangbahar
+*password = kangbahar
+      
+
+----------------------------------------------------------------------------------------------------------------
+
+Apabila user yang login dengan nilai level 1, maka diarahkan kehalaman user biasa, apabila user yang login dengan nilai level 2 maka diarahkan ke halaman admin/backend(folder admin)
+
+----------------------------------------------------------------------------------------------------------------
+
+Apabila mau membedakan template antara admin dan user biasa, template user biasa bisa ditaruh di folder luar ini, sedangkan untuk halaman admin, bisa ditaruh di folder admin.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Untuk melakukan autentikasi apakah user ini admin atau tidak, kita membuat semacam verifikasi di bagian atas code di setiap halaman.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Penjelasan lebih jelasnya ada langsung di codingannya, semua proses disini ada comment nya yang insha Allah akan memperjelas kalian.
+
+
+
+
+
+	-Never stop learning.
+
+
+	
